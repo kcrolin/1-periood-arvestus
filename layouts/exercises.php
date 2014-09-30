@@ -12,9 +12,26 @@
       <section id="site-content">
         <h2>Tingimuslause</h2>
         <!--  Sisesta siia kood -->
-
+		<?php 
+    $var= rand(100,200);
+	if ($var >= 150) {
+	echo "Juhuslik number 'genereeritud number' on suurem kui 150.";}
+	else {
+	echo "Juhuslik number 'genereeritud number' on väiksem kui 150.";}
+    
+	?>
+	
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
+		<?php 
+    $var= rand(100,200);
+	if ($var >= 150) {
+	echo "Juhuslik number 'genereeritud number' on suurem kui 150.";}
+	else {
+	echo "Juhuslik number 'genereeritud number' on väiksem kui 150.";}
+    
+	?>
+	
 
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
