@@ -1,3 +1,7 @@
+<head>
+  <?php include "../components/site-data.php"; ?>
+</head>
+
 <header id="site-header">
   <div class="site-title">
     <h1><?php echo $site_title; ?></h1>
@@ -5,13 +9,10 @@
 
   <nav class="menu-main">
     <ul class="menu">
-<?php foreach ($contact as $attribute => $value ) {
-echo "<li><a href="$attribute">'{$value}'</a></li>"
-;}?>
-      
-      <li><a href="news.php">Uudised</a></li>
-      <li><a href="team.php">Meeskond</a></li>
-      <li><a href="exercises.php">Harjutused</a></li>
+<?php foreach ($menu_main as $attribute => $value ) {
+echo "<li><a href={$value}>{$attribute}</li></a>";
+}?>
+  
     </ul>
   </nav>
 </header>
