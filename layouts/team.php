@@ -19,19 +19,19 @@
         <div class="team-member">
           <h2 class="member-name">Peeter Kartul</h2>
           <div class="member-info"><span>E-mail: </span><a href="mailto:peeter.kartul@khk.ee">peeter.kartul@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Jalgrattad</div>
+          <div class="member-info"><span>Huvialad: </span>Jalgrattad</div>
         </div>
 
         <div class="team-member">
           <h2 class="member-name">Erki Nool</h2>
           <div class="member-info"><span>E-mail: </span><a href="mailto:erki.nool@khk.ee">erki.nool@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Jalgpall</div>
+          <div class="member-info"><span>Huvialad: </span>Jalgpall</div>
         </div>
 
         <div class="team-member">
           <h2 class="member-name">Timo Tigu</h2>
           <div class="member-info"><span>E-mail: </span><a href="mailto:timo.tigu@khk.ee">timo.tigu@khk.ee</a></div>
-          <div class="member-info"><span>Amet: </span>Raamatud</div>
+          <div class="member-info"><span>Huvialad: </span>Raamatud</div>
         </div>
 
         <div class="team-member">

@@ -9,6 +9,7 @@
   
   $footer_content = "Arvestustöö: Cärolin Karing - 30.09.2014";
 
+   
   $blog_news =
     array(
       array(
