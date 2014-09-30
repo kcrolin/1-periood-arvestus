@@ -32,8 +32,13 @@ echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/
 
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
-		
-	
+		<?php
+$count = 1;
+while ($count <= 12) {
+echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$count.'.jpg">';
+$count ++;
+}
+?>
       </section>
     </main>
 
