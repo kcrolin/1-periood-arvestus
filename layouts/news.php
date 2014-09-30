@@ -11,7 +11,10 @@
     <main id="site-body">
       <section id="site-content">
         <article class="blog-post">
-          <h2 class="post-title">Eesti Disainiauhindade pidulik gala tõi ohtralt auhindu ja moeka seltskonna</h2>
+		
+		<?php foreach ($blog_news[0] as $attribute => $value ) {
+echo 
+         '<h2 class="post-title">($value)</h2>
           <div class="post-excerpt">
             <p>Reedel, 26. septembril toimus Lilleküla jalgpallihallis pidulik Eesti Disainiauhinnad 2014 pidulik gala, kus pärjati parimaid kodumaiseid disainereid. Selle aasta parimad disainerid tunnustati viies kategoorias: tootedisain, graafiline disain, veebidisain, noor disainer ja teenusedisain. Silmapaistvaimad tegijad valiti välja 434 erineva töö seast.</p>
           </div>
@@ -19,8 +22,8 @@
           <div class="post-body">
             <p>Graafilise disaini üheks laureaadiks said disainerid Kerli Virk ja Stella Skulatšjova, kataloogiga Kaamos, mis on mahukaim ülevaade tänapäeva Eesti moeväljast. Veel sai tunnustust Kalevi Eesti laulu-ja tantsupeo šokolaadipakend, mille kujundas pakendidisainile orienteeritud firma KOOR.</p>
             <p>Noore disaineri auhinna SÄSI pälvis Aap Piho, kes on nüüdseks suutnud oma brändiga Warm North ilma teha ka rahvusvahelisel turul. “SÄSI preemia esikümme kujunes sel aastal väga tasavägiseks, sest pea kõik disaineritel omavad enda brändi ning reaalset ettevõtluskogemust,” rääkis žürii esimees, disainer Martin Pärn. Väikse SÄSI preemia määrati Mariti Ilisonile, kes on kollektsiooniga “Magada tahaks” andnud käsitööle ja lookaalsusele täiesti uue mõõtme ning sidunud sellega taaskasutuse ja säästliku tootmise mõõtmed.”</p>
-            <p>Tööstusdisaini auhinna pälvis disainer Mihkel Güssoni loodud surfarite abimees Shaka Weather Station, mida saavad kasutada purjetajad, lohesurfarid, mägironijad. Shaka puhul hindas žürii toote uuenduslikkust, innovaatilisust ja ülimat praktilisust. Parima autoridisaini auhind läks Tarmo Luisu Riidepuu-lambile What?, mis on tõeliselt universaalne ja üllatuslik valgusti. </p>
-            </div>
+            <p>Tööstusdisaini auhinna pälvis disainer Mihkel Güssoni loodud surfarite abimees Shaka Weather Station, mida saavad kasutada purjetajad, lohesurfarid, mägironijad. Shaka puhul hindas žürii toote uuenduslikkust, innovaatilisust ja ülimat praktilisust. Parima autoridisaini auhind läks Tarmo Luisu Riidepuu-lambile What?, mis on tõeliselt universaalne ja üllatuslik valgusti. </p>[
+            </div> ';}?>
         </article>
 
         <article class="blog-post">
