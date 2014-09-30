@@ -9,6 +9,7 @@
     <?php include "../components/site-header.php"; ?>
 
     <main id="site-body">
+
       <section id="site-content">
         <div class="team-member">
           <h2 class="member-name">Kaspar Naaber</h2>

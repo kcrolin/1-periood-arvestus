@@ -23,18 +23,17 @@
 	
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
-		<?php 
-    $var= rand(100,200);
-	if ($var >= 150) {
-	echo "Juhuslik number 'genereeritud number' on suurem kui 150.";}
-	else {
-	echo "Juhuslik number 'genereeritud number' on väiksem kui 150.";}
-    
-	?>
+		
+		 <?php
+		 
+echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.rand(1, 12).'.jpg">';
+?>
 	
 
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
+		
+	
       </section>
     </main>
 
